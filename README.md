@@ -10,7 +10,7 @@ Reports are generated as JSON and Markdown. A GitHub Actions workflow can publis
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/opensource-demand-analyzer.git
+git clone https://github.com/pratikbajoria1991/opensource-demand-analyzer.git
 cd opensource-demand-analyzer
 python -m venv .venv
 .venv\Scripts\activate          # Windows
@@ -102,7 +102,7 @@ git init
 git add .
 git commit -m "Initial commit: open source demand analyzer"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/opensource-demand-analyzer.git
+git remote add origin https://github.com/pratikbajoria1991/opensource-demand-analyzer.git
 git push -u origin main
 ```
 
