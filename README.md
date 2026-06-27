@@ -1,5 +1,10 @@
 # Open Source Demand Analyzer
 
+[![CI](https://github.com/pratikbajoria1991/opensource-demand-analyzer/actions/workflows/ci.yml/badge.svg)](https://github.com/pratikbajoria1991/opensource-demand-analyzer/actions/workflows/ci.yml)
+[![Weekly Analysis](https://github.com/pratikbajoria1991/opensource-demand-analyzer/actions/workflows/analyze.yml/badge.svg)](https://github.com/pratikbajoria1991/opensource-demand-analyzer/actions/workflows/analyze.yml)
+[![Python 3.12+](https://img.shields.io/badge/python-3.12%2B-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Analyze GitHub open source projects to answer two questions (6 categories including **memory-infra**):
 
 1. **Which projects are most in demand?** — scored from stars, forks, open issues, recency, and engagement.
