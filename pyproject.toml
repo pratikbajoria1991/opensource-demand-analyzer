@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "opensource-demand-analyzer"
+version = "0.1.0"
+description = "Analyze open source GitHub projects for demand signals and feature gaps"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Open Source Demand Analyzer Contributors" }]
+keywords = ["github", "open-source", "analysis", "demand", "feature-gaps"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Quality Assurance",
+]
+dependencies = [
+    "requests>=2.31.0",
+    "pyyaml>=6.0.1",
+    "rich>=13.7.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
+
+[project.scripts]
+os-analyzer = "os_analyzer.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/your-username/opensource-demand-analyzer"
+Repository = "https://github.com/your-username/opensource-demand-analyzer"
+Issues = "https://github.com/your-username/opensource-demand-analyzer/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

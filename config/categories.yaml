@@ -1,0 +1,58 @@
+# Predefined open-source categories to analyze.
+# Each category searches GitHub for repositories matching the query.
+
+categories:
+  - id: ai-agents
+    name: AI Agents & Orchestration
+    query: "topic:ai-agents stars:>500"
+    expected_features:
+      - multi-agent orchestration
+      - tool calling
+      - memory / context persistence
+      - observability / tracing
+      - human-in-the-loop
+      - streaming responses
+
+  - id: vector-databases
+    name: Vector Databases & Embeddings
+    query: "topic:vector-database stars:>300"
+    expected_features:
+      - hybrid search
+      - metadata filtering
+      - multi-tenancy
+      - backup and restore
+      - horizontal scaling
+      - sparse + dense vectors
+
+  - id: local-llm
+    name: Local LLM Inference
+    query: "topic:llm-inference stars:>1000"
+    expected_features:
+      - gpu acceleration
+      - quantization support
+      - openai-compatible api
+      - model caching
+      - batch inference
+      - multi-modal support
+
+  - id: developer-tools
+    name: Developer Productivity Tools
+    query: "topic:developer-tools stars:>2000 language:typescript"
+    expected_features:
+      - plugin ecosystem
+      - ci/cd integration
+      - team collaboration
+      - offline mode
+      - api access
+      - self-hosted option
+
+  - id: observability
+    name: Observability & Monitoring
+    query: "topic:observability stars:>500"
+    expected_features:
+      - distributed tracing
+      - metrics collection
+      - log aggregation
+      - alerting
+      - sso / rbac
+      - cost attribution
