@@ -21,8 +21,10 @@ python -m venv .venv
 .venv\Scripts\activate          # Windows
 # source .venv/bin/activate     # macOS/Linux
 pip install -e .
-os-analyzer
+python -m os_analyzer.cli --per-category 3
 ```
+
+**Windows:** If `os-analyzer` is not on your PATH, always use `python -m os_analyzer.cli` (as above).
 
 Set a GitHub token for higher API limits (recommended):
 
