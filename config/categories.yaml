@@ -56,3 +56,18 @@ categories:
       - alerting
       - sso / rbac
       - cost attribution
+
+  - id: memory-infra
+    name: AI Memory Infrastructure
+    query: "agent memory OR episodic memory OR semantic memory stars:>100"
+    expected_features:
+      - episodic memory
+      - semantic memory
+      - procedural memory
+      - multi-tenancy
+      - memory observability / tracing
+      - context budget management
+      - gdpr erase / right to be forgotten
+      - cross-session persistence
+      - memory consolidation
+      - recall evaluation metrics

@@ -1,6 +1,6 @@
 # Open Source Demand Analyzer
 
-Analyze GitHub open source projects to answer two questions:
+Analyze GitHub open source projects to answer two questions (6 categories including **memory-infra**):
 
 1. **Which projects are most in demand?** — scored from stars, forks, open issues, recency, and engagement.
 2. **Which projects are lacking features?** — inferred from README coverage, open enhancement issues, and category-specific expected capabilities.
