@@ -110,6 +110,21 @@ git push -u origin main
 
 `GITHUB_TOKEN` is provided automatically in Actions (5000 requests/hour).
 
+## Categories
+
+| ID | Focus |
+|----|-------|
+| `ai-agents` | Agent orchestration, tools, streaming |
+| `vector-databases` | Embeddings, hybrid search, tenancy |
+| `local-llm` | Inference, quantization, caching |
+| `developer-tools` | Plugins, CI/CD, self-hosted |
+| `observability` | Tracing, metrics, cost attribution |
+| `memory-infra` | Episodic/semantic memory, GDPR, context budget |
+
+## Companion project
+
+[agent-memory-gateway](../agent-memory-gateway) implements the memory-infra gaps this tool surfaces (tenancy, recall, GDPR erase, context budgeting).
+
 ## Limitations
 
 - Analysis uses public GitHub API data only (no code parsing).
