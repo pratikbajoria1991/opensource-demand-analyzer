@@ -1,0 +1,1410 @@
+{
+  "generated_at": "2026-06-27T09:52:02.983220+00:00",
+  "categories_analyzed": 1,
+  "total_repositories": 3,
+  "top_demanding_projects": [
+    {
+      "full_name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "category": "ai-agents",
+      "demand_score": 100.0,
+      "tier": "very_high",
+      "stars": 203993
+    },
+    {
+      "full_name": "langchain-ai/langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "category": "ai-agents",
+      "demand_score": 95.58,
+      "tier": "very_high",
+      "stars": 140318
+    },
+    {
+      "full_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "category": "ai-agents",
+      "demand_score": 92.9,
+      "tier": "very_high",
+      "stars": 222318
+    }
+  ],
+  "projects_with_most_gaps": [
+    {
+      "full_name": "langchain-ai/langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "category": "ai-agents",
+      "gap_count": 6,
+      "top_gaps": [
+        "tool calling",
+        "streaming responses",
+        "multi-agent orchestration"
+      ],
+      "demand_score": 95.58
+    },
+    {
+      "full_name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "category": "ai-agents",
+      "gap_count": 4,
+      "top_gaps": [
+        "multi-agent orchestration",
+        "streaming responses",
+        "observability / tracing"
+      ],
+      "demand_score": 100.0
+    },
+    {
+      "full_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "category": "ai-agents",
+      "gap_count": 4,
+      "top_gaps": [
+        "tool calling",
+        "observability / tracing",
+        "human-in-the-loop"
+      ],
+      "demand_score": 92.9
+    }
+  ],
+  "categories": [
+    {
+      "category_id": "ai-agents",
+      "category_name": "AI Agents & Orchestration",
+      "query": "topic:ai-agents stars:>500",
+      "analyzed_at": "2026-06-27T09:52:02.983182+00:00",
+      "repository_count": 3,
+      "most_demanding": [
+        {
+          "full_name": "NousResearch/hermes-agent",
+          "name": "hermes-agent",
+          "owner": "NousResearch",
+          "url": "https://github.com/NousResearch/hermes-agent",
+          "description": "The agent that grows with you",
+          "language": "Python",
+          "stars": 203993,
+          "forks": 36637,
+          "open_issues": 24030,
+          "pushed_at": "2026-06-27T09:37:34Z",
+          "topics": [
+            "ai",
+            "ai-agent",
+            "ai-agents",
+            "anthropic",
+            "chatgpt",
+            "claude",
+            "claude-code",
+            "clawdbot",
+            "codex",
+            "hermes",
+            "hermes-agent",
+            "llm",
+            "moltbot",
+            "nous-research",
+            "openai",
+            "openclaw"
+          ],
+          "demand": {
+            "total": 100.0,
+            "stars": 100.0,
+            "forks": 100.0,
+            "open_issues": 100.0,
+            "recency": 100.0,
+            "engagement": 100.0,
+            "tier": "very_high"
+          },
+          "feature_gaps": [
+            {
+              "feature": "multi-agent orchestration",
+              "status": "likely_missing",
+              "evidence": [
+                "Not documented in README",
+                "Issue #514: Feature: A2A (Agent-to-Agent) Protocol Support \u2014 Remote Agent Discovery, Communication & Interoperability",
+                "Issue #9459: feat(delegation): agent profiles for delegate_task \u2014 custom orchestration harness support"
+              ],
+              "confidence": 0.85
+            },
+            {
+              "feature": "streaming responses",
+              "status": "likely_missing",
+              "evidence": [
+                "Not documented in README",
+                "Issue #514: Feature: A2A (Agent-to-Agent) Protocol Support \u2014 Remote Agent Discovery, Communication & Interoperability"
+              ],
+              "confidence": 0.85
+            },
+            {
+              "feature": "observability / tracing",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            },
+            {
+              "feature": "human-in-the-loop",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            }
+          ],
+          "hot_feature_requests": [
+            {
+              "number": 514,
+              "title": "Feature: A2A (Agent-to-Agent) Protocol Support \u2014 Remote Agent Discovery, Communication & Interoperability",
+              "url": "https://github.com/NousResearch/hermes-agent/issues/514",
+              "reactions": 33,
+              "labels": [
+                "type/feature",
+                "comp/agent",
+                "P3"
+              ]
+            },
+            {
+              "number": 12238,
+              "title": "Feature Request: Built-in Automatic Backup & Version Control for Agent Data (~/.hermes/)",
+              "url": "https://github.com/NousResearch/hermes-agent/issues/12238",
+              "reactions": 27,
+              "labels": [
+                "type/feature",
+                "P3"
+              ]
+            },
+            {
+              "number": 9459,
+              "title": "feat(delegation): agent profiles for delegate_task \u2014 custom orchestration harness support",
+              "url": "https://github.com/NousResearch/hermes-agent/issues/9459",
+              "reactions": 26,
+              "labels": [
+                "type/feature",
+                "comp/agent",
+                "tool/delegate",
+                "P3"
+              ]
+            },
+            {
+              "number": 569,
+              "title": "Feature: Agent Client Protocol (ACP) Server Mode \u2014 Run Hermes in Zed, JetBrains, Neovim, Toad & Any ACP-Compatible Editor",
+              "url": "https://github.com/NousResearch/hermes-agent/issues/569",
+              "reactions": 17,
+              "labels": [
+                "type/feature"
+              ]
+            },
+            {
+              "number": 15445,
+              "title": "feat(browser): add Obscura as a browser provider (Rust headless browser with CDP)",
+              "url": "https://github.com/NousResearch/hermes-agent/issues/15445",
+              "reactions": 15,
+              "labels": [
+                "type/feature",
+                "comp/tools",
+                "tool/browser",
+                "P3"
+              ]
+            },
+            {
+              "number": 7517,
+              "title": "Feature Request: Native Multi-Agent Support",
+              "url": "https://github.com/NousResearch/hermes-agent/issues/7517",
+              "reactions": 14,
+              "labels": [
+                "type/feature",
+                "comp/agent",
+                "comp/gateway",
+                "P3"
+              ]
+            },
+            {
+              "number": 20510,
+              "title": "Feature Request: Cloud Sync for All Hermes Configurations Across Devices",
+              "url": "https://github.com/NousResearch/hermes-agent/issues/20510",
+              "reactions": 14,
+              "labels": [
+                "type/feature",
+                "area/config",
+                "P3"
+              ]
+            },
+            {
+              "number": 13484,
+              "title": "Feature: native Google Cloud Vertex AI provider support",
+              "url": "https://github.com/NousResearch/hermes-agent/issues/13484",
+              "reactions": 13,
+              "labels": [
+                "duplicate",
+                "type/feature",
+                "comp/agent",
+                "provider/gemini",
+                "area/auth",
+                "P3"
+              ]
+            }
+          ]
+        },
+        {
+          "full_name": "langchain-ai/langchain",
+          "name": "langchain",
+          "owner": "langchain-ai",
+          "url": "https://github.com/langchain-ai/langchain",
+          "description": "The agent engineering platform.",
+          "language": "Python",
+          "stars": 140318,
+          "forks": 23289,
+          "open_issues": 411,
+          "pushed_at": "2026-06-26T21:28:59Z",
+          "topics": [
+            "agents",
+            "ai",
+            "ai-agents",
+            "anthropic",
+            "chatgpt",
+            "deepagents",
+            "enterprise",
+            "framework",
+            "gemini",
+            "generative-ai",
+            "langchain",
+            "langgraph",
+            "llm",
+            "multiagent",
+            "open-source",
+            "openai",
+            "pydantic",
+            "python",
+            "rag",
+            "typescript"
+          ],
+          "demand": {
+            "total": 95.58,
+            "stars": 100.0,
+            "forks": 100.0,
+            "open_issues": 70.69,
+            "recency": 99.86,
+            "engagement": 100.0,
+            "tier": "very_high"
+          },
+          "feature_gaps": [
+            {
+              "feature": "tool calling",
+              "status": "likely_missing",
+              "evidence": [
+                "Not documented in README",
+                "Issue #34130: [Feature Request] Native Support for MCP Code Execution (Programmatic Tool Calling) & Lazy Result Loading",
+                "Issue #35415: Add support for /responses websocket"
+              ],
+              "confidence": 0.85
+            },
+            {
+              "feature": "streaming responses",
+              "status": "likely_missing",
+              "evidence": [
+                "Not documented in README",
+                "Issue #33810: Support Immediate Streaming for Server-Side Tool Invocations"
+              ],
+              "confidence": 0.85
+            },
+            {
+              "feature": "multi-agent orchestration",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            },
+            {
+              "feature": "memory / context persistence",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            },
+            {
+              "feature": "observability / tracing",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            },
+            {
+              "feature": "human-in-the-loop",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            }
+          ],
+          "hot_feature_requests": [
+            {
+              "number": 34130,
+              "title": "[Feature Request] Native Support for MCP Code Execution (Programmatic Tool Calling) & Lazy Result Loading",
+              "url": "https://github.com/langchain-ai/langchain/issues/34130",
+              "reactions": 30,
+              "labels": [
+                "great-writeup",
+                "core",
+                "langchain",
+                "feature request",
+                "anthropic",
+                "openai",
+                "external"
+              ]
+            },
+            {
+              "number": 33808,
+              "title": "Support dynamic tool addition/removal after agent creation and in middleware",
+              "url": "https://github.com/langchain-ai/langchain/issues/33808",
+              "reactions": 14,
+              "labels": [
+                "langchain",
+                "feature request",
+                "candidate",
+                "external"
+              ]
+            },
+            {
+              "number": 36310,
+              "title": "Expose Deep Agent Harness as Composable LangGraph Primitives",
+              "url": "https://github.com/langchain-ai/langchain/issues/36310",
+              "reactions": 11,
+              "labels": [
+                "langchain",
+                "feature request",
+                "external"
+              ]
+            },
+            {
+              "number": 34441,
+              "title": "Python 3.14 support",
+              "url": "https://github.com/langchain-ai/langchain/issues/34441",
+              "reactions": 8,
+              "labels": [
+                "langchain",
+                "feature request",
+                "external"
+              ]
+            },
+            {
+              "number": 33810,
+              "title": "Support Immediate Streaming for Server-Side Tool Invocations",
+              "url": "https://github.com/langchain-ai/langchain/issues/33810",
+              "reactions": 6,
+              "labels": [
+                "feature request",
+                "openai",
+                "external"
+              ]
+            },
+            {
+              "number": 35415,
+              "title": "Add support for /responses websocket",
+              "url": "https://github.com/langchain-ai/langchain/issues/35415",
+              "reactions": 6,
+              "labels": [
+                "langchain",
+                "feature request",
+                "openai",
+                "external"
+              ]
+            },
+            {
+              "number": 34806,
+              "title": "Conform to Open Responses",
+              "url": "https://github.com/langchain-ai/langchain/issues/34806",
+              "reactions": 3,
+              "labels": [
+                "langchain",
+                "feature request",
+                "external"
+              ]
+            },
+            {
+              "number": 38343,
+              "title": "Add OpenRouterEmbeddings to langchain-openrouter",
+              "url": "https://github.com/langchain-ai/langchain/issues/38343",
+              "reactions": 2,
+              "labels": [
+                "feature request",
+                "external",
+                "openrouter"
+              ]
+            }
+          ]
+        },
+        {
+          "full_name": "affaan-m/ECC",
+          "name": "ECC",
+          "owner": "affaan-m",
+          "url": "https://github.com/affaan-m/ECC",
+          "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+          "language": "JavaScript",
+          "stars": 222318,
+          "forks": 34028,
+          "open_issues": 91,
+          "pushed_at": "2026-06-25T23:47:36Z",
+          "topics": [
+            "ai-agents",
+            "anthropic",
+            "claude",
+            "claude-code",
+            "developer-tools",
+            "llm",
+            "mcp",
+            "productivity"
+          ],
+          "demand": {
+            "total": 92.9,
+            "stars": 100.0,
+            "forks": 100.0,
+            "open_issues": 53.09,
+            "recency": 99.61,
+            "engagement": 100.0,
+            "tier": "very_high"
+          },
+          "feature_gaps": [
+            {
+              "feature": "tool calling",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            },
+            {
+              "feature": "observability / tracing",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            },
+            {
+              "feature": "human-in-the-loop",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            },
+            {
+              "feature": "streaming responses",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            }
+          ],
+          "hot_feature_requests": [
+            {
+              "number": 2360,
+              "title": "add Antigravity CLI support",
+              "url": "https://github.com/affaan-m/ECC/issues/2360",
+              "reactions": 2,
+              "labels": []
+            },
+            {
+              "number": 2344,
+              "title": "[Copilot] [Feature request] Jcode implementation",
+              "url": "https://github.com/affaan-m/ECC/issues/2344",
+              "reactions": 0,
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "most_gaps": [
+        {
+          "full_name": "langchain-ai/langchain",
+          "name": "langchain",
+          "owner": "langchain-ai",
+          "url": "https://github.com/langchain-ai/langchain",
+          "description": "The agent engineering platform.",
+          "language": "Python",
+          "stars": 140318,
+          "forks": 23289,
+          "open_issues": 411,
+          "pushed_at": "2026-06-26T21:28:59Z",
+          "topics": [
+            "agents",
+            "ai",
+            "ai-agents",
+            "anthropic",
+            "chatgpt",
+            "deepagents",
+            "enterprise",
+            "framework",
+            "gemini",
+            "generative-ai",
+            "langchain",
+            "langgraph",
+            "llm",
+            "multiagent",
+            "open-source",
+            "openai",
+            "pydantic",
+            "python",
+            "rag",
+            "typescript"
+          ],
+          "demand": {
+            "total": 95.58,
+            "stars": 100.0,
+            "forks": 100.0,
+            "open_issues": 70.69,
+            "recency": 99.86,
+            "engagement": 100.0,
+            "tier": "very_high"
+          },
+          "feature_gaps": [
+            {
+              "feature": "tool calling",
+              "status": "likely_missing",
+              "evidence": [
+                "Not documented in README",
+                "Issue #34130: [Feature Request] Native Support for MCP Code Execution (Programmatic Tool Calling) & Lazy Result Loading",
+                "Issue #35415: Add support for /responses websocket"
+              ],
+              "confidence": 0.85
+            },
+            {
+              "feature": "streaming responses",
+              "status": "likely_missing",
+              "evidence": [
+                "Not documented in README",
+                "Issue #33810: Support Immediate Streaming for Server-Side Tool Invocations"
+              ],
+              "confidence": 0.85
+            },
+            {
+              "feature": "multi-agent orchestration",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            },
+            {
+              "feature": "memory / context persistence",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            },
+            {
+              "feature": "observability / tracing",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            },
+            {
+              "feature": "human-in-the-loop",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            }
+          ],
+          "hot_feature_requests": [
+            {
+              "number": 34130,
+              "title": "[Feature Request] Native Support for MCP Code Execution (Programmatic Tool Calling) & Lazy Result Loading",
+              "url": "https://github.com/langchain-ai/langchain/issues/34130",
+              "reactions": 30,
+              "labels": [
+                "great-writeup",
+                "core",
+                "langchain",
+                "feature request",
+                "anthropic",
+                "openai",
+                "external"
+              ]
+            },
+            {
+              "number": 33808,
+              "title": "Support dynamic tool addition/removal after agent creation and in middleware",
+              "url": "https://github.com/langchain-ai/langchain/issues/33808",
+              "reactions": 14,
+              "labels": [
+                "langchain",
+                "feature request",
+                "candidate",
+                "external"
+              ]
+            },
+            {
+              "number": 36310,
+              "title": "Expose Deep Agent Harness as Composable LangGraph Primitives",
+              "url": "https://github.com/langchain-ai/langchain/issues/36310",
+              "reactions": 11,
+              "labels": [
+                "langchain",
+                "feature request",
+                "external"
+              ]
+            },
+            {
+              "number": 34441,
+              "title": "Python 3.14 support",
+              "url": "https://github.com/langchain-ai/langchain/issues/34441",
+              "reactions": 8,
+              "labels": [
+                "langchain",
+                "feature request",
+                "external"
+              ]
+            },
+            {
+              "number": 33810,
+              "title": "Support Immediate Streaming for Server-Side Tool Invocations",
+              "url": "https://github.com/langchain-ai/langchain/issues/33810",
+              "reactions": 6,
+              "labels": [
+                "feature request",
+                "openai",
+                "external"
+              ]
+            },
+            {
+              "number": 35415,
+              "title": "Add support for /responses websocket",
+              "url": "https://github.com/langchain-ai/langchain/issues/35415",
+              "reactions": 6,
+              "labels": [
+                "langchain",
+                "feature request",
+                "openai",
+                "external"
+              ]
+            },
+            {
+              "number": 34806,
+              "title": "Conform to Open Responses",
+              "url": "https://github.com/langchain-ai/langchain/issues/34806",
+              "reactions": 3,
+              "labels": [
+                "langchain",
+                "feature request",
+                "external"
+              ]
+            },
+            {
+              "number": 38343,
+              "title": "Add OpenRouterEmbeddings to langchain-openrouter",
+              "url": "https://github.com/langchain-ai/langchain/issues/38343",
+              "reactions": 2,
+              "labels": [
+                "feature request",
+                "external",
+                "openrouter"
+              ]
+            }
+          ]
+        },
+        {
+          "full_name": "NousResearch/hermes-agent",
+          "name": "hermes-agent",
+          "owner": "NousResearch",
+          "url": "https://github.com/NousResearch/hermes-agent",
+          "description": "The agent that grows with you",
+          "language": "Python",
+          "stars": 203993,
+          "forks": 36637,
+          "open_issues": 24030,
+          "pushed_at": "2026-06-27T09:37:34Z",
+          "topics": [
+            "ai",
+            "ai-agent",
+            "ai-agents",
+            "anthropic",
+            "chatgpt",
+            "claude",
+            "claude-code",
+            "clawdbot",
+            "codex",
+            "hermes",
+            "hermes-agent",
+            "llm",
+            "moltbot",
+            "nous-research",
+            "openai",
+            "openclaw"
+          ],
+          "demand": {
+            "total": 100.0,
+            "stars": 100.0,
+            "forks": 100.0,
+            "open_issues": 100.0,
+            "recency": 100.0,
+            "engagement": 100.0,
+            "tier": "very_high"
+          },
+          "feature_gaps": [
+            {
+              "feature": "multi-agent orchestration",
+              "status": "likely_missing",
+              "evidence": [
+                "Not documented in README",
+                "Issue #514: Feature: A2A (Agent-to-Agent) Protocol Support \u2014 Remote Agent Discovery, Communication & Interoperability",
+                "Issue #9459: feat(delegation): agent profiles for delegate_task \u2014 custom orchestration harness support"
+              ],
+              "confidence": 0.85
+            },
+            {
+              "feature": "streaming responses",
+              "status": "likely_missing",
+              "evidence": [
+                "Not documented in README",
+                "Issue #514: Feature: A2A (Agent-to-Agent) Protocol Support \u2014 Remote Agent Discovery, Communication & Interoperability"
+              ],
+              "confidence": 0.85
+            },
+            {
+              "feature": "observability / tracing",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            },
+            {
+              "feature": "human-in-the-loop",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            }
+          ],
+          "hot_feature_requests": [
+            {
+              "number": 514,
+              "title": "Feature: A2A (Agent-to-Agent) Protocol Support \u2014 Remote Agent Discovery, Communication & Interoperability",
+              "url": "https://github.com/NousResearch/hermes-agent/issues/514",
+              "reactions": 33,
+              "labels": [
+                "type/feature",
+                "comp/agent",
+                "P3"
+              ]
+            },
+            {
+              "number": 12238,
+              "title": "Feature Request: Built-in Automatic Backup & Version Control for Agent Data (~/.hermes/)",
+              "url": "https://github.com/NousResearch/hermes-agent/issues/12238",
+              "reactions": 27,
+              "labels": [
+                "type/feature",
+                "P3"
+              ]
+            },
+            {
+              "number": 9459,
+              "title": "feat(delegation): agent profiles for delegate_task \u2014 custom orchestration harness support",
+              "url": "https://github.com/NousResearch/hermes-agent/issues/9459",
+              "reactions": 26,
+              "labels": [
+                "type/feature",
+                "comp/agent",
+                "tool/delegate",
+                "P3"
+              ]
+            },
+            {
+              "number": 569,
+              "title": "Feature: Agent Client Protocol (ACP) Server Mode \u2014 Run Hermes in Zed, JetBrains, Neovim, Toad & Any ACP-Compatible Editor",
+              "url": "https://github.com/NousResearch/hermes-agent/issues/569",
+              "reactions": 17,
+              "labels": [
+                "type/feature"
+              ]
+            },
+            {
+              "number": 15445,
+              "title": "feat(browser): add Obscura as a browser provider (Rust headless browser with CDP)",
+              "url": "https://github.com/NousResearch/hermes-agent/issues/15445",
+              "reactions": 15,
+              "labels": [
+                "type/feature",
+                "comp/tools",
+                "tool/browser",
+                "P3"
+              ]
+            },
+            {
+              "number": 7517,
+              "title": "Feature Request: Native Multi-Agent Support",
+              "url": "https://github.com/NousResearch/hermes-agent/issues/7517",
+              "reactions": 14,
+              "labels": [
+                "type/feature",
+                "comp/agent",
+                "comp/gateway",
+                "P3"
+              ]
+            },
+            {
+              "number": 20510,
+              "title": "Feature Request: Cloud Sync for All Hermes Configurations Across Devices",
+              "url": "https://github.com/NousResearch/hermes-agent/issues/20510",
+              "reactions": 14,
+              "labels": [
+                "type/feature",
+                "area/config",
+                "P3"
+              ]
+            },
+            {
+              "number": 13484,
+              "title": "Feature: native Google Cloud Vertex AI provider support",
+              "url": "https://github.com/NousResearch/hermes-agent/issues/13484",
+              "reactions": 13,
+              "labels": [
+                "duplicate",
+                "type/feature",
+                "comp/agent",
+                "provider/gemini",
+                "area/auth",
+                "P3"
+              ]
+            }
+          ]
+        },
+        {
+          "full_name": "affaan-m/ECC",
+          "name": "ECC",
+          "owner": "affaan-m",
+          "url": "https://github.com/affaan-m/ECC",
+          "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+          "language": "JavaScript",
+          "stars": 222318,
+          "forks": 34028,
+          "open_issues": 91,
+          "pushed_at": "2026-06-25T23:47:36Z",
+          "topics": [
+            "ai-agents",
+            "anthropic",
+            "claude",
+            "claude-code",
+            "developer-tools",
+            "llm",
+            "mcp",
+            "productivity"
+          ],
+          "demand": {
+            "total": 92.9,
+            "stars": 100.0,
+            "forks": 100.0,
+            "open_issues": 53.09,
+            "recency": 99.61,
+            "engagement": 100.0,
+            "tier": "very_high"
+          },
+          "feature_gaps": [
+            {
+              "feature": "tool calling",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            },
+            {
+              "feature": "observability / tracing",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            },
+            {
+              "feature": "human-in-the-loop",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            },
+            {
+              "feature": "streaming responses",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            }
+          ],
+          "hot_feature_requests": [
+            {
+              "number": 2360,
+              "title": "add Antigravity CLI support",
+              "url": "https://github.com/affaan-m/ECC/issues/2360",
+              "reactions": 2,
+              "labels": []
+            },
+            {
+              "number": 2344,
+              "title": "[Copilot] [Feature request] Jcode implementation",
+              "url": "https://github.com/affaan-m/ECC/issues/2344",
+              "reactions": 0,
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "all_repositories": [
+        {
+          "full_name": "NousResearch/hermes-agent",
+          "name": "hermes-agent",
+          "owner": "NousResearch",
+          "url": "https://github.com/NousResearch/hermes-agent",
+          "description": "The agent that grows with you",
+          "language": "Python",
+          "stars": 203993,
+          "forks": 36637,
+          "open_issues": 24030,
+          "pushed_at": "2026-06-27T09:37:34Z",
+          "topics": [
+            "ai",
+            "ai-agent",
+            "ai-agents",
+            "anthropic",
+            "chatgpt",
+            "claude",
+            "claude-code",
+            "clawdbot",
+            "codex",
+            "hermes",
+            "hermes-agent",
+            "llm",
+            "moltbot",
+            "nous-research",
+            "openai",
+            "openclaw"
+          ],
+          "demand": {
+            "total": 100.0,
+            "stars": 100.0,
+            "forks": 100.0,
+            "open_issues": 100.0,
+            "recency": 100.0,
+            "engagement": 100.0,
+            "tier": "very_high"
+          },
+          "feature_gaps": [
+            {
+              "feature": "multi-agent orchestration",
+              "status": "likely_missing",
+              "evidence": [
+                "Not documented in README",
+                "Issue #514: Feature: A2A (Agent-to-Agent) Protocol Support \u2014 Remote Agent Discovery, Communication & Interoperability",
+                "Issue #9459: feat(delegation): agent profiles for delegate_task \u2014 custom orchestration harness support"
+              ],
+              "confidence": 0.85
+            },
+            {
+              "feature": "streaming responses",
+              "status": "likely_missing",
+              "evidence": [
+                "Not documented in README",
+                "Issue #514: Feature: A2A (Agent-to-Agent) Protocol Support \u2014 Remote Agent Discovery, Communication & Interoperability"
+              ],
+              "confidence": 0.85
+            },
+            {
+              "feature": "observability / tracing",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            },
+            {
+              "feature": "human-in-the-loop",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            }
+          ],
+          "hot_feature_requests": [
+            {
+              "number": 514,
+              "title": "Feature: A2A (Agent-to-Agent) Protocol Support \u2014 Remote Agent Discovery, Communication & Interoperability",
+              "url": "https://github.com/NousResearch/hermes-agent/issues/514",
+              "reactions": 33,
+              "labels": [
+                "type/feature",
+                "comp/agent",
+                "P3"
+              ]
+            },
+            {
+              "number": 12238,
+              "title": "Feature Request: Built-in Automatic Backup & Version Control for Agent Data (~/.hermes/)",
+              "url": "https://github.com/NousResearch/hermes-agent/issues/12238",
+              "reactions": 27,
+              "labels": [
+                "type/feature",
+                "P3"
+              ]
+            },
+            {
+              "number": 9459,
+              "title": "feat(delegation): agent profiles for delegate_task \u2014 custom orchestration harness support",
+              "url": "https://github.com/NousResearch/hermes-agent/issues/9459",
+              "reactions": 26,
+              "labels": [
+                "type/feature",
+                "comp/agent",
+                "tool/delegate",
+                "P3"
+              ]
+            },
+            {
+              "number": 569,
+              "title": "Feature: Agent Client Protocol (ACP) Server Mode \u2014 Run Hermes in Zed, JetBrains, Neovim, Toad & Any ACP-Compatible Editor",
+              "url": "https://github.com/NousResearch/hermes-agent/issues/569",
+              "reactions": 17,
+              "labels": [
+                "type/feature"
+              ]
+            },
+            {
+              "number": 15445,
+              "title": "feat(browser): add Obscura as a browser provider (Rust headless browser with CDP)",
+              "url": "https://github.com/NousResearch/hermes-agent/issues/15445",
+              "reactions": 15,
+              "labels": [
+                "type/feature",
+                "comp/tools",
+                "tool/browser",
+                "P3"
+              ]
+            },
+            {
+              "number": 7517,
+              "title": "Feature Request: Native Multi-Agent Support",
+              "url": "https://github.com/NousResearch/hermes-agent/issues/7517",
+              "reactions": 14,
+              "labels": [
+                "type/feature",
+                "comp/agent",
+                "comp/gateway",
+                "P3"
+              ]
+            },
+            {
+              "number": 20510,
+              "title": "Feature Request: Cloud Sync for All Hermes Configurations Across Devices",
+              "url": "https://github.com/NousResearch/hermes-agent/issues/20510",
+              "reactions": 14,
+              "labels": [
+                "type/feature",
+                "area/config",
+                "P3"
+              ]
+            },
+            {
+              "number": 13484,
+              "title": "Feature: native Google Cloud Vertex AI provider support",
+              "url": "https://github.com/NousResearch/hermes-agent/issues/13484",
+              "reactions": 13,
+              "labels": [
+                "duplicate",
+                "type/feature",
+                "comp/agent",
+                "provider/gemini",
+                "area/auth",
+                "P3"
+              ]
+            }
+          ]
+        },
+        {
+          "full_name": "langchain-ai/langchain",
+          "name": "langchain",
+          "owner": "langchain-ai",
+          "url": "https://github.com/langchain-ai/langchain",
+          "description": "The agent engineering platform.",
+          "language": "Python",
+          "stars": 140318,
+          "forks": 23289,
+          "open_issues": 411,
+          "pushed_at": "2026-06-26T21:28:59Z",
+          "topics": [
+            "agents",
+            "ai",
+            "ai-agents",
+            "anthropic",
+            "chatgpt",
+            "deepagents",
+            "enterprise",
+            "framework",
+            "gemini",
+            "generative-ai",
+            "langchain",
+            "langgraph",
+            "llm",
+            "multiagent",
+            "open-source",
+            "openai",
+            "pydantic",
+            "python",
+            "rag",
+            "typescript"
+          ],
+          "demand": {
+            "total": 95.58,
+            "stars": 100.0,
+            "forks": 100.0,
+            "open_issues": 70.69,
+            "recency": 99.86,
+            "engagement": 100.0,
+            "tier": "very_high"
+          },
+          "feature_gaps": [
+            {
+              "feature": "tool calling",
+              "status": "likely_missing",
+              "evidence": [
+                "Not documented in README",
+                "Issue #34130: [Feature Request] Native Support for MCP Code Execution (Programmatic Tool Calling) & Lazy Result Loading",
+                "Issue #35415: Add support for /responses websocket"
+              ],
+              "confidence": 0.85
+            },
+            {
+              "feature": "streaming responses",
+              "status": "likely_missing",
+              "evidence": [
+                "Not documented in README",
+                "Issue #33810: Support Immediate Streaming for Server-Side Tool Invocations"
+              ],
+              "confidence": 0.85
+            },
+            {
+              "feature": "multi-agent orchestration",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            },
+            {
+              "feature": "memory / context persistence",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            },
+            {
+              "feature": "observability / tracing",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            },
+            {
+              "feature": "human-in-the-loop",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            }
+          ],
+          "hot_feature_requests": [
+            {
+              "number": 34130,
+              "title": "[Feature Request] Native Support for MCP Code Execution (Programmatic Tool Calling) & Lazy Result Loading",
+              "url": "https://github.com/langchain-ai/langchain/issues/34130",
+              "reactions": 30,
+              "labels": [
+                "great-writeup",
+                "core",
+                "langchain",
+                "feature request",
+                "anthropic",
+                "openai",
+                "external"
+              ]
+            },
+            {
+              "number": 33808,
+              "title": "Support dynamic tool addition/removal after agent creation and in middleware",
+              "url": "https://github.com/langchain-ai/langchain/issues/33808",
+              "reactions": 14,
+              "labels": [
+                "langchain",
+                "feature request",
+                "candidate",
+                "external"
+              ]
+            },
+            {
+              "number": 36310,
+              "title": "Expose Deep Agent Harness as Composable LangGraph Primitives",
+              "url": "https://github.com/langchain-ai/langchain/issues/36310",
+              "reactions": 11,
+              "labels": [
+                "langchain",
+                "feature request",
+                "external"
+              ]
+            },
+            {
+              "number": 34441,
+              "title": "Python 3.14 support",
+              "url": "https://github.com/langchain-ai/langchain/issues/34441",
+              "reactions": 8,
+              "labels": [
+                "langchain",
+                "feature request",
+                "external"
+              ]
+            },
+            {
+              "number": 33810,
+              "title": "Support Immediate Streaming for Server-Side Tool Invocations",
+              "url": "https://github.com/langchain-ai/langchain/issues/33810",
+              "reactions": 6,
+              "labels": [
+                "feature request",
+                "openai",
+                "external"
+              ]
+            },
+            {
+              "number": 35415,
+              "title": "Add support for /responses websocket",
+              "url": "https://github.com/langchain-ai/langchain/issues/35415",
+              "reactions": 6,
+              "labels": [
+                "langchain",
+                "feature request",
+                "openai",
+                "external"
+              ]
+            },
+            {
+              "number": 34806,
+              "title": "Conform to Open Responses",
+              "url": "https://github.com/langchain-ai/langchain/issues/34806",
+              "reactions": 3,
+              "labels": [
+                "langchain",
+                "feature request",
+                "external"
+              ]
+            },
+            {
+              "number": 38343,
+              "title": "Add OpenRouterEmbeddings to langchain-openrouter",
+              "url": "https://github.com/langchain-ai/langchain/issues/38343",
+              "reactions": 2,
+              "labels": [
+                "feature request",
+                "external",
+                "openrouter"
+              ]
+            }
+          ]
+        },
+        {
+          "full_name": "affaan-m/ECC",
+          "name": "ECC",
+          "owner": "affaan-m",
+          "url": "https://github.com/affaan-m/ECC",
+          "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+          "language": "JavaScript",
+          "stars": 222318,
+          "forks": 34028,
+          "open_issues": 91,
+          "pushed_at": "2026-06-25T23:47:36Z",
+          "topics": [
+            "ai-agents",
+            "anthropic",
+            "claude",
+            "claude-code",
+            "developer-tools",
+            "llm",
+            "mcp",
+            "productivity"
+          ],
+          "demand": {
+            "total": 92.9,
+            "stars": 100.0,
+            "forks": 100.0,
+            "open_issues": 53.09,
+            "recency": 99.61,
+            "engagement": 100.0,
+            "tier": "very_high"
+          },
+          "feature_gaps": [
+            {
+              "feature": "tool calling",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            },
+            {
+              "feature": "observability / tracing",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            },
+            {
+              "feature": "human-in-the-loop",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            },
+            {
+              "feature": "streaming responses",
+              "status": "undocumented",
+              "evidence": [
+                "Not mentioned in README; no strong issue signal"
+              ],
+              "confidence": 0.55
+            }
+          ],
+          "hot_feature_requests": [
+            {
+              "number": 2360,
+              "title": "add Antigravity CLI support",
+              "url": "https://github.com/affaan-m/ECC/issues/2360",
+              "reactions": 2,
+              "labels": []
+            },
+            {
+              "number": 2344,
+              "title": "[Copilot] [Feature request] Jcode implementation",
+              "url": "https://github.com/affaan-m/ECC/issues/2344",
+              "reactions": 0,
+              "labels": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
